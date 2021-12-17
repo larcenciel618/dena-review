@@ -8,4 +8,5 @@
 `gcc *.c`  
 `./a.out`  
 
-https://user-images.githubusercontent.com/62476416/146494573-31064720-59ed-49d0-a69e-3ef409ebeff5.png
+![スクリーンショット 2021-12-17 14 29 56（2）](https://user-images.githubusercontent.com/62476416/146494872-d58f3a12-b80b-4e3a-a23c-c9d2700a1bb9.png)
+
