@@ -9,7 +9,7 @@
 
 extern	FILE	*fp;
 
-bool	execute_input(char **map, int int_num, char player);
+bool	is_input_excuted(char **map, int int_num, char player);
 bool	is_finish(char **map);
 void	input_stone(char **map, int count);
 void	print_map(char **map, FILE *mode);

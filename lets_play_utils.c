@@ -87,7 +87,7 @@ bool	is_finish(char **map)
 	return (false);
 }
 
-bool	execute_input(char **map, int i, char stone)
+bool	is_input_executed(char **map, int i, char stone)
 {
 	int	y;
 
@@ -122,7 +122,7 @@ void	input_stone(char **map, int count)
 		printf("[%c's turn]Please enter the number of columns(1..7)\n", player);
 		scanf("%s", str_num);
 		int_num = atoi(str_num);
-		while (execute_input(map, int_num, player) != true)
+		while (is_input_executed(map, int_num, player) != true)
 		{
 				printf("[%c's turn]sorry,try again(1..7)\n", player);
 				scanf("%s", str_num);
